@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+body {
+	background-image: url("/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+}
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+.title {
+	color: orange;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px orange, 0 0 40px orange,
+		0 0 50px orange, 0 0 60px orange, 0 0 70px orange;
+}
