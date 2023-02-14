@@ -1,13 +1,13 @@
 //
 export const CONTRACT_ADDRESS_STAKING =
-	"0xc6710043136e329CF628CECE1D74c3C82BaB2b95";
+	"0x25ead8c61b30C861903D4a6fb13CDE7F2cB6c6cB";
 //0x9C89203A8492302947e6632309D0bDE87F9b378C
 export const CONTRACT_ADDRESS_TOKEN =
-	"0xC78F9aAFb890d51d5cB72431028Bc7393130c1cC";
+	"0x9C89203A8492302947e6632309D0bDE87F9b378C";
 
 //request switch chain
 // BNB mainnet "0x38", BNB testnet "0x61", ETH goerli "0x5", ETH mainnet "0x1"
-export const CHAIN_ID = "0x61"; // edit here
+export const CHAIN_ID = "0x38"; // edit here
 export const ABI_STAKING = [
 	{ inputs: [], stateMutability: "nonpayable", type: "constructor" },
 	{

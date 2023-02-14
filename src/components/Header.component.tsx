@@ -1,10 +1,7 @@
 import { Button, Stack } from "@mui/material";
 import Typography from "@mui/material/Typography";
-import { CHAIN_ID } from "config";
 import { connectWallet } from "func/connectWallet";
-import { useEffect } from "react";
 import { useEventEth } from "../hooks/useEventEth";
-declare var window: any;
 
 export type HeaderT = {
 	address: string | undefined;

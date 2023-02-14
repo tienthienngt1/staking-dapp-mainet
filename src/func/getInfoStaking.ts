@@ -39,6 +39,7 @@ export const getAmountStake = async (address: string) => {
 	}
 	return;
 };
+
 export const harvestToken = async (address: string) => {
 	if (contractStaking && web3Staking) {
 		try {
@@ -52,6 +53,7 @@ export const harvestToken = async (address: string) => {
 	}
 	return;
 };
+
 export const withdrawToken = async (address: string) => {
 	if (contractStaking && web3Staking) {
 		try {
@@ -65,6 +67,7 @@ export const withdrawToken = async (address: string) => {
 	}
 	return;
 };
+
 export const stakeToken = async (address: string, amount: number) => {
 	if (contractStaking && web3Staking) {
 		try {
@@ -78,6 +81,7 @@ export const stakeToken = async (address: string, amount: number) => {
 	}
 	return;
 };
+
 export const getProfit = async (address: string) => {
 	if (contractStaking && web3Staking) {
 		try {
